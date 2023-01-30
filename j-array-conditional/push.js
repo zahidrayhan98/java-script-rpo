@@ -1,0 +1,11 @@
+var num = [3, 44, 88, 99, 12 ];
+num.push (13);
+console.log(num);
+num.pop();
+ var element = num.pop();
+console.log(num);
+console.log(element);
+num.unshift(43);
+num.splice(2);
+num.concat(2);
+console.log(num);    
